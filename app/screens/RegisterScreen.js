@@ -13,6 +13,10 @@ import Screen from "../components/Screen";
   
 
 export default function LoginScreen() {
+    const [matricNo, setMatricNo] = useState("")
+    const [password, setPassword] = useState("")
+    const [ConfirmPassword, setConfirmPassword] = useState("")
+
     return (
         <Screen style={styles.container}>
             <View style={styles.top}>
